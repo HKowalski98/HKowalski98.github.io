@@ -31,13 +31,20 @@
         />
       </div>
       <div>
+        <input
+          
+          placeholder="XXX-123456"
+          pattern="^[A-Z]{3}( )[0-9]{6}$"         
+        />
+      </div>
+      <div>
       </div>
       <div>
         <input  placeholder="192.168.1.1" pattern="^((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)(\.(?!$)|$)){4}$"  />
       </div>
-      <div><input  placeholder="www.example.com"  pattern="^((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]+\.[a-z]+(\/[a-zA-Z0-9#]+\/?)*$"/></div>
-      <div><input  placeholder="C:\windows\temp"  pattern="^[A-Z]{1}:\\[a-z]+\\[a-z]+$" /></div>
-      <div><input  placeholder="C:\WinDows\temp" pattern="^[A-Z]{1}:\\[a-zA-Z]+\\[a-zA-Z]+$/" ></div>
+      <div><input  placeholder="www.example.com"  pattern="((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]+\.[a-z]+(\/[a-zA-Z0-9#]+\/?)*"/></div>
+      <div><input  placeholder="C:\windows\temp"  pattern="^[A-Za-z]{1}:\\[a-z]+\\[a-z]+$" /></div>
+      <div><input  placeholder="C:\WinDows\temp" pattern="^[A-Za-z]{1}:\\[a-zA-Z]+\\[a-zA-Z]+$/" ></div>
       <div>
         <input  placeholder="/etc/example" pattern="\/etc\/[a-z]+$"/>
       </div 
