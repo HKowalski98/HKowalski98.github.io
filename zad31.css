@@ -1,0 +1,52 @@
+body {
+  background-color: #2d2e2e;
+}
+.container {
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+}
+.tileGenerator {
+  width: 20vw;
+  height: 95vh;
+  display: flex;
+  border: 5px solid #09f8cd;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+.tileGeneratorButton {
+  width: 10vw;
+  height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d2e2e;
+  margin-top: 4vh;
+  border: 2px solid #09f8cd;
+  border-radius: 3vh;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.gameBoard {
+  width: 80vw;
+  height: 90vh;
+  position: relative;
+  padding: 0px;
+}
+.slotForTile {
+  border-radius: 5vh;
+  border: 3px solid #09f8cd;
+  width: 15vw;
+  height: 15vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+.generatedTile {
+  width: 12vw;
+  height: 12vw;
+  margin: 1.5vw;
+  position: absolute;
+}
